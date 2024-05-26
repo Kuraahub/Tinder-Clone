@@ -1,0 +1,18 @@
+.tinder-card {
+    width: 300px; /* Définissez la largeur souhaitée pour les cartes */
+    margin: 0 auto; /* Centrez les cartes horizontalement */
+  }
+  
+  .profile-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-photo {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

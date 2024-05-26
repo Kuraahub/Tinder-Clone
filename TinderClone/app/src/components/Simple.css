@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alatsi', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .app-title {
+    font-family: 'Damion', cursive;
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .card {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Pour que le texte soit en bas de la carte */
+    color: white;
+    background-blend-mode: darken; /* Pour assombrir l'image en arrière-plan */
+    overflow: hidden;
+  }
+  
+  .swipe {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+  }
+  
+  .profile-info {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour améliorer la lisibilité du texte */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Espace entre le texte et le bord inférieur de la carte */
+    text-align: left;
+  }
+  
+  .infoText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
